@@ -1,0 +1,8 @@
+<config>
+
+	<set xpath="/lootcontainers/lootcontainer[@id='25']/item[@name='foodEgg']/@count">1,4</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='25']/item[@name='foodEgg']/@prob">0.45</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='25']/item[@name='resourceFeather']/@count">4,12</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='25']/item[@name='resourceFeather']/@prob">0.70</set>
+	
+</config>
