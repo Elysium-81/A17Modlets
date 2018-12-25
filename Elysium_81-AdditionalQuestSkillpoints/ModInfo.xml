@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Additional Quest Skillpoints" />
+		<Description value="Adds 6 skillpoints to the end of the basic Survival quest and 2 skillpoint whiteriver quest." />
+		<Author value="Elysium_81" />
+		<Version value="1" />
+	</ModInfo>
+</xml>
