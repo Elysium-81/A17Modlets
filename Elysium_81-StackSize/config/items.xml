@@ -2,6 +2,5 @@
 
 	<set xpath="/items/item[contains(@name,'medical')]/property[@name='Stacknumber']/@value">500</set>
 	<set xpath="/items/item[contains(@name,'drug')]/property[@name='Stacknumber']/@value">250</set>
-	<set xpath="/items/item[@name='']/property[@name='Stacknumber']/@value">500</set>
-
+	
 </configs>
