@@ -1,0 +1,7 @@
+<configs>
+	
+	<set xpath="/progression/attributes/attribute/effect_group/passive_effect[@name='CraftingTime'][@level='7,10']/@level">7,9</set>
+	<set xpath="/progression/attributes/attribute/effect_group/passive_effect[@name='CraftingTime'][@level='11,20']/@level">10,20</set>
+	<set xpath="/progression/attributes/attribute/effect_group/passive_effect[@name='CraftingTime'][@value='.65']/@value">1.0</set>
+	
+</configs>
