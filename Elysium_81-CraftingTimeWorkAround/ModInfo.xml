@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Crafting Time Work Around" />
+		<Description value="Workaround to CraftingTime bug om servers." />
+		<Author value="Elysium_81" />
+		<Version value="1" />
+	</ModInfo>
+</xml>
