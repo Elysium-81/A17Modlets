@@ -1,0 +1,8 @@
+<configs>
+
+	<set xpath="/items/item[@name='gunMR10']/effect_group[@name='Base Effects']/passive_effect[@name='MagazineSize']/@value">15</set>
+	<set xpath="/items/item[@name='gunPistol']/effect_group[@name='Base Effects']/passive_effect[@name='MagazineSize']/@value">25</set>
+	<set xpath="/items/item[@name='gunHuntingRifle']/effect_group[@name='Base Effects']/passive_effect[@name='MagazineSize']/@value">5</set>
+	<set xpath="/items/item[@name='gunAK47']/effect_group[@name='Base Effects']/passive_effect[@name='MagazineSize']/@value">45</set>
+	
+</configs>

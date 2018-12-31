@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Magazine" />
+		<Description value="Increase magazine size of guns." />
+		<Author value="Elysium_81" />
+		<Version value="1" />
+	</ModInfo>
+</xml>
