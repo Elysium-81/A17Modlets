@@ -1,7 +1,9 @@
 <configs>
+	<!-- Miner69r -->
 	<set xpath="/progression/perks/perk[@name='perkMiner69r']/effect_group/passive_effect[@name='BlockDamage']/@value">.55,4</set>
 	<set xpath="/progression/perks/perk[@name='perkMiner69r']/effect_group/passive_effect[@name='BlockDamage']/@level">0,5</set>
 
+	<!-- MotherLode -->
 	<set xpath="/progression/perks/perk[@name='perkMotherLode']/effect_group/passive_effect[@name='HarvestCount']/@value">.5,10</set>
 	<set xpath="/progression/perks/perk[@name='perkMotherLode']/effect_group/passive_effect[@name='HarvestCount']/@level">0,5</set>
 
