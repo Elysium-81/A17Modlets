@@ -1,0 +1,15 @@
+<configs>
+
+	<!-- Add costume recipes -->
+	<append xpath="/recipes">
+	
+		<recipe name="Door_Test" count="1">
+			<ingredient name="resourceWood" count="5"/>
+		</recipe>
+	
+	</append>
+	
+	
+</configs>
+
+
