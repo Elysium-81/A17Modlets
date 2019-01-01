@@ -3,5 +3,21 @@
 	<set xpath="/items/item[contains(@name,'medical')]/property[@name='Stacknumber']/@value">500</set>
 	<set xpath="/items/item[contains(@name,'drug')]/property[@name='Stacknumber']/@value">250</set>
 	<set xpath="/items/item[contains(@name,'drinkJar')]/property[@name='Stacknumber']/@value">500</set>
+	<set xpath="/items/item[@name='resourceWood']/property[@name='Stacknumber']/@value">8000</set>
+	<set xpath="/items/item[@name='resourceRockSmall']/property[@name='Stacknumber']/@value">8000</set>
+	<set xpath="/items/item[@name='resourceIronFragment']/property[@name='Stacknumber']/@value">8000</set>
+	<set xpath="/items/item[@name='resourceForgedIron']/property[@name='Stacknumber']/@value">1000</set>
+	<set xpath="/items/item[@name='resourceForgedSteel']/property[@name='Stacknumber']/@value">1000</set>
+	<set xpath="/items/item[@name='resourceLeather']/property[@name='Stacknumber']/@value">500</set>
+	<set xpath="/items/item[@name='resourceCement']/property[@name='Stacknumber']/@value">8000</set>
+	<set xpath="/items/item[@name='resourceConcreteMix']/property[@name='Stacknumber']/@value">8000</set>
+	<set xpath="/items/item[@name='resourceCloth']/property[@name='Stacknumber']/@value">1000</set>
+	<set xpath="/items/item[@name='resourcePaper']/property[@name='Stacknumber']/@value">1000</set>
+	<set xpath="/items/item[@name='resourceFeather']/property[@name='Stacknumber']/@value">500</set>
+	<set xpath="/items/item[@name='resourceGunPowder']/property[@name='Stacknumber']/@value">2000</set>
+	<set xpath="/items/item[@name='resourceRepairKit']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='resourceOil']/property[@name='Stacknumber']/@value">250</set>
+	<set xpath="/items/item[@name='resourcePaint']/property[@name='Stacknumber']/@value">8000</set>
+	<set xpath="/items/item[@name='resourceRadiator']/property[@name='Stacknumber']/@value">100</set>
 	
 </configs>
