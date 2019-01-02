@@ -1,0 +1,6 @@
+<config>
+
+	<remove xpath="/entity_classes/entity_class[@name='zombieStripper']"/>
+	<remove xpath="/entity_classes/entity_class[@name='zombieStripperFeral']"/>
+
+</config>
