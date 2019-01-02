@@ -43,11 +43,95 @@
 			<property name="SortOrder2" value="0100"/> <!-- SortDoors -->
 			
 
-			<property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
+			<property name="DescriptionKey" value="Door_Test"/> 
 			
 			
 			<!-- <property name="CustomIcon" value="" /> -->
 		</block>
+		
+		
+		<block name="Door_001">
+			<property name="Class" value="DoorSecure"/>
+			<property name="Material" value="Mwood_regular"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="MaxDamage" value="1500"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Tag" value="Door"/>
+			<property name="Place" value="Door"/> <!-- build restriction -->			
+			<property name="PlaceEverywhere" value="true"/>
+			<property name="Model" value="#@modfolder:Resources/Doors_Hatches_Bridge.unity3d?Door_001Prefab"/>
+			<property name="ModelOffset" value="0,.5,0"/>
+			<property name="MultiBlockDim" value="1,2,1"/>
+			<property name="PassThroughDamage" value="true"/>
+			<property name="LightOpacity" value="1"/>
+			<property name="FuelValue" value="300"/>
+			<property name="ImposterExchange" value="imposterBlock" param1="35"/>
+			<property name="OpenSound" value="open_door_wood"/>
+			<property name="CloseSound" value="close_door_wood"/>
+			<property class="RepairItems">
+				<property name="resourceWood" value="3"/> 
+			</property>			
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="secureReinforcedDoorWooden"/>
+				<property name="Item" value="resourceWood"/>
+				<property name="ItemCount" value="4"/>
+				<property name="UpgradeHitCount" value="4"/>
+			</property>
+			<property name="CustomUpgradeSound" value="place_block_wood"/>
+			<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest"/> <!-- harvest amount is 40% of the building cost -->
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="Group" value="Building,Basics"/>
+			<property name="EconomicValue" value="5"/>
+			<property name="EconomicBundleSize" value="10"/>
+			<property name="FilterTags" value="fdecor,fdoors"/>
+			<property name="SortOrder1" value="7060"/>
+			<property name="SortOrder2" value="0100"/> <!-- SortDoors -->
+			<property name="DescriptionKey" value="Door_Test"/> 
+			<!-- <property name="CustomIcon" value="" /> -->
+		</block>
+		
+		<block name="Door_002">
+			<property name="Class" value="DoorSecure"/>
+			<property name="Material" value="Mwood_regular"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="MaxDamage" value="1500"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Tag" value="Door"/>
+			<property name="Place" value="Door"/> <!-- build restriction -->			
+			<property name="PlaceEverywhere" value="true"/>
+			<property name="Model" value="#@modfolder:Resources/Doors_Hatches_Bridge.unity3d?Door_002Prefab"/>
+			<property name="ModelOffset" value="0,.5,0"/>
+			<property name="MultiBlockDim" value="1,2,1"/>
+			<property name="PassThroughDamage" value="true"/>
+			<property name="LightOpacity" value="1"/>
+			<property name="FuelValue" value="300"/>
+			<property name="ImposterExchange" value="imposterBlock" param1="35"/>
+			<property name="OpenSound" value="open_door_wood"/>
+			<property name="CloseSound" value="close_door_wood"/>
+			<property class="RepairItems">
+				<property name="resourceWood" value="3"/> 
+			</property>			
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="secureReinforcedDoorWooden"/>
+				<property name="Item" value="resourceWood"/>
+				<property name="ItemCount" value="4"/>
+				<property name="UpgradeHitCount" value="4"/>
+			</property>
+			<property name="CustomUpgradeSound" value="place_block_wood"/>
+			<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest"/> <!-- harvest amount is 40% of the building cost -->
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="Group" value="Building,Basics"/>
+			<property name="EconomicValue" value="5"/>
+			<property name="EconomicBundleSize" value="10"/>
+			<property name="FilterTags" value="fdecor,fdoors"/>
+			<property name="SortOrder1" value="7060"/>
+			<property name="SortOrder2" value="0100"/> <!-- SortDoors -->
+			<property name="DescriptionKey" value="Door_Test"/> 
+			<!-- <property name="CustomIcon" value="" /> -->
+		</block>
+		
 		
 	</append>
 

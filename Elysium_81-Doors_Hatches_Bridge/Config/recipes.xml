@@ -1,6 +1,6 @@
 <configs>
 
-	<!-- Add costume recipes -->
+	<!-- Add recipes -->
 	<append xpath="/recipes">
 	
 		<recipe name="Door_Test" count="1">
