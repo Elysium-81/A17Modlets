@@ -1,0 +1,29 @@
+<configs>
+
+	<!-- Remove prefabs from rwgmixer -->
+	<!-- <remove xpath="/rwgmixer/prefab_rules/prefab_rule/prefab[@name='']"/> -->
+	<remove xpath="/rwgmixer/prefab_rules/prefab_rule/prefab[@name='utility_celltower_01']"/>
+	<remove xpath="/rwgmixer/prefab_rules/prefab_rule/prefab[@name='utility_celltower_02']"/>
+	<remove xpath="/rwgmixer/prefab_rules/prefab_rule/prefab[@name='houseburnt5']"/>
+	<remove xpath="/rwgmixer/prefab_rules/prefab_rule/prefab[@name='houseburnt1']"/>
+<!-- 	<remove xpath="/rwgmixer/prefab_rules/prefab_rule/prefab[@name='']"/>
+	<remove xpath="/rwgmixer/prefab_rules/prefab_rule/prefab[@name='']"/>
+	<remove xpath="/rwgmixer/prefab_rules/prefab_rule/prefab[@name='']"/>
+	<remove xpath="/rwgmixer/prefab_rules/prefab_rule/prefab[@name='']"/>
+	<remove xpath="/rwgmixer/prefab_rules/prefab_rule/prefab[@name='']"/>
+	<remove xpath="/rwgmixer/prefab_rules/prefab_rule/prefab[@name='']"/>
+	<remove xpath="/rwgmixer/prefab_rules/prefab_rule/prefab[@name='']"/>
+	<remove xpath="/rwgmixer/prefab_rules/prefab_rule/prefab[@name='']"/>
+	<remove xpath="/rwgmixer/prefab_rules/prefab_rule/prefab[@name='']"/>
+	<remove xpath="/rwgmixer/prefab_rules/prefab_rule/prefab[@name='']"/>
+	<remove xpath="/rwgmixer/prefab_rules/prefab_rule/prefab[@name='']"/>
+	<remove xpath="/rwgmixer/prefab_rules/prefab_rule/prefab[@name='']"/>
+	<remove xpath="/rwgmixer/prefab_rules/prefab_rule/prefab[@name='']"/>
+	<remove xpath="/rwgmixer/prefab_rules/prefab_rule/prefab[@name='']"/>
+	<remove xpath="/rwgmixer/prefab_rules/prefab_rule/prefab[@name='']"/> -->
+	
+	<!-- Change Min / Max / Prob -->
+	
+	
+	
+</configs>
