@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="IncreaseAttacksPerMinuteWithQuality" />
+		<Description value="Increase AttacksPerMinute With higher Quality" />
+		<Author value="Elysium_81" />
+		<Version value="1" />
+	</ModInfo>
+</xml>

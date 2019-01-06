@@ -1,0 +1,8 @@
+<configs>
+	
+	<!-- Change attacksperminute based on quality -->
+	<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='AttacksPerMinute']/@operation">perc_add</set>
+	<set xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='AttacksPerMinute']/@value">0,1</set>
+	<setattribute xpath="/items/item/effect_group[@name='Base Effects']/passive_effect[@name='AttacksPerMinute']" name="tier">1,6</setattribute>
+
+</configs>
