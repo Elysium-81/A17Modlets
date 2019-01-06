@@ -12,7 +12,7 @@
 			<property name="Material" value="Mmetal"/>
 			<property name="RepairTools" value="resourceForgedIron"/>
 			<property name="DegradationBreaksAfter" value="false"/>
-			<property name="EconomicValue" value="600"/>
+			<property name="EconomicValue" value="60"/>
 			<property name="SoundJammed" value="ItemNeedsRepair"/>
 			<property name="SoundDestroy" value="wooddestroy1"/>
 			<property name="Weight" value="200"/>
@@ -43,9 +43,6 @@
 				<passive_effect name="StaminaLoss" operation="base_set" value="1" tags="primary"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="500,8000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1,1" tier="1,6"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value=".15" tags="EntityDamage,BlockDamage"/>
-				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="25" tags="plants,leaves"/>
 				<passive_effect name="DamageModifier" operation="base_set" value="0" tags="stone,earth,wood"/>
 			</effect_group>
