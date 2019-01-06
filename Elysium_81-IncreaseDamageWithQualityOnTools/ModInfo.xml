@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="IncreaseDamageWithQualityOnTools" />
+		<Description value="Increase damage With higher Quality" />
+		<Author value="Elysium_81" />
+		<Version value="1" />
+	</ModInfo>
+</xml>

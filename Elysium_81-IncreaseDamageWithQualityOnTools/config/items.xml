@@ -1,0 +1,9 @@
+<configs>
+	
+	<!-- Change damage based on quality -->
+	<append xpath="/items/item[contains(@name,'meleeTool')]/effect_group[@name='Base Effects']">
+		<passive_effect name="EntityDamage" operation="perc_add" value="0,.5" tier="1,6"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="0,2" tier="1,6"/>
+	</append>		
+	
+</configs>

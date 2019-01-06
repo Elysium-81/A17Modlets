@@ -1,0 +1,8 @@
+<configs>
+	
+	<!-- Change attacksperminute on tools based on quality -->
+	<set xpath="/items/item[contains(@name,'meleeTool')]/effect_group[@name='Base Effects']/passive_effect[@name='AttacksPerMinute']/@operation">perc_add</set>
+	<set xpath="/items/item[contains(@name,'meleeTool')]/effect_group[@name='Base Effects']/passive_effect[@name='AttacksPerMinute']/@value">0,.75</set>
+	<setattribute xpath="/items/item[contains(@name,'meleeTool')]/effect_group[@name='Base Effects']/passive_effect[@name='AttacksPerMinute']" name="tier">1,6</setattribute>
+
+</configs>
