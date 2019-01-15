@@ -1,0 +1,14 @@
+<configs>
+
+	<remove xpath="/blocks/block[@name='cropsGrowingMaster']/property[@name='Collide']"/>
+	<remove xpath="/blocks/block[@name='cropsHarvestableMaster']/property[@name='Collide']"/>
+	
+	
+	
+	
+	
+	<append xpath="/blocks/block[@name='plantedMushroom1']">
+	<property name="CanPickup" value="true" param1="resourceYuccaFibers"/>
+	</append>
+	
+</configs>
