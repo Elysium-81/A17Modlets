@@ -1,12 +1,12 @@
 <configs>
 	
-	<set xpath="/blocks/block[@name='rockResource']/drop[@name='resourceIronFragment']/@count">12</set>
-	<set xpath="/blocks/block[@name='rockResource']/drop[@name='resourceCoal']/@count">12</set>
-	<set xpath="/blocks/block[@name='rockResource']/drop[@name='resourceCoal']/@prob">0.60</set>
-	<set xpath="/blocks/block[@name='rockResource']/drop[@name='resourcePotassiumNitratePowder']/@count">12</set>
-	<set xpath="/blocks/block[@name='rockResource']/drop[@name='resourcePotassiumNitratePowder']/@prob">0.60</set>
-	<set xpath="/blocks/block[@name='rockResource']/drop[@name='resourceScrapLead']/@count">12</set>
-	<set xpath="/blocks/block[@name='rockResource']/drop[@name='resourceScrapLead']/@prob">0.60</set>
-	<set xpath="/blocks/block[@name='terrStone']/drop[@name='resourceIronFragment']/@count">21</set>
+	<set xpath="/blocks/block[@name='rockResource']/drop[@name='resourceIronFragment']/@count">6</set>
+	<set xpath="/blocks/block[@name='rockResource']/drop[@name='resourceCoal']/@count">6</set>
+	<set xpath="/blocks/block[@name='rockResource']/drop[@name='resourceCoal']/@prob">0.40</set>
+	<set xpath="/blocks/block[@name='rockResource']/drop[@name='resourcePotassiumNitratePowder']/@count">6</set>
+	<set xpath="/blocks/block[@name='rockResource']/drop[@name='resourcePotassiumNitratePowder']/@prob">0.40</set>
+	<set xpath="/blocks/block[@name='rockResource']/drop[@name='resourceScrapLead']/@count">6</set>
+	<set xpath="/blocks/block[@name='rockResource']/drop[@name='resourceScrapLead']/@prob">0.40</set>
+	<set xpath="/blocks/block[@name='terrStone']/drop[@name='resourceIronFragment']/@count">6</set>
 	
 </configs>
