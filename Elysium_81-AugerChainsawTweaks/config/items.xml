@@ -1,0 +1,29 @@
+<configs>
+
+	<set xpath="/items/item[@name='meleeToolAuger' or @name='meleeToolChainsaw']/effect_group/passive_effect[@name='MagazineSize']/@value">1000</set>
+	<append xpath="/items/item[@name='meleeToolAuger' or @name='meleeToolChainsaw']">
+		<property name="CrosshairUpAfterShot" value="false"/>
+	</append>
+	
+	<append xpath="/items/item[@name='meleeToolAuger']/effect_group[@name='Base Effects']">
+		<passive_effect name="MaxRange" operation="perc_add" value="0.5" tier="2"/>
+		<passive_effect name="MaxRange" operation="perc_add" value="1" tier="3"/>
+		<passive_effect name="MaxRange" operation="perc_add" value="1.5" tier="4"/>
+		<passive_effect name="MaxRange" operation="perc_add" value="2" tier="5"/>
+		<passive_effect name="MaxRange" operation="perc_add" value="2.5" tier="6"/>
+	
+		<passive_effect name="BlockRange" operation="perc_add" value="0.5" tier="2"/>
+		<passive_effect name="BlockRange" operation="perc_add" value="1" tier="3"/>
+		<passive_effect name="BlockRange" operation="perc_add" value="1.5" tier="4"/>
+		<passive_effect name="BlockRange" operation="perc_add" value="2" tier="5"/>
+		<passive_effect name="BlockRange" operation="perc_add" value="2.5" tier="6"/>
+	
+		<passive_effect name="BlockDamage" operation="perc_add" value="0" tier="1"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="3.52" tier="2"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="7.04" tier="3"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="10.56" tier="4"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="14.08" tier="5"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="17.6" tier="6"/>
+	</append>
+
+</configs>
