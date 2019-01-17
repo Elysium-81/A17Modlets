@@ -1,0 +1,10 @@
+<configs>
+
+	<append xpath="/recipes">
+		<recipe name="resourceBrassMix" count="1" craft_area="cementMixer">
+			<ingredient name="resourceZincFragment" count="1"/>
+			<ingredient name="resourceCopperFragment" count="1"/>
+		</recipe>
+	</append>
+	
+</configs>
