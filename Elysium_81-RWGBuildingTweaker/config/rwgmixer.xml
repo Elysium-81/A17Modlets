@@ -1,6 +1,6 @@
 <configs>
 	
-	<!-- Remove prefabs from rwgmixer -->
+ 	<!-- Remove prefabs from rwgmixer -->
 	<!-- <remove xpath="/rwgmixer/prefab_rules/prefab_rule/prefab[@name='']"/> -->
 	<remove xpath="/rwgmixer/prefab_rules/prefab_rule/prefab[@name='utility_celltower_01']"/>
 	<remove xpath="/rwgmixer/prefab_rules/prefab_rule/prefab[@name='utility_celltower_02']"/>
@@ -13,12 +13,9 @@
 	<set xpath="/rwgmixer/prefab_rules/prefab_rule[@name='wildernessGroup']/prefab[contains(@name,'trader')]/@min_count">2</set>
 	<set xpath="/rwgmixer/prefab_rules/prefab_rule[@name='wildernessGroup']/prefab[contains(@name,'trader')]/@max_count">6</set>
 	
-	<!-- Increase the min amount of skyscrapers in downtownGroup from 2 to 5 -->
-	<set xpath="/rwgmixer/prefab_rules/prefab_rule[@name='downtownGroup']/prefab[contains(@rule,'skyscrapers')]/@min_count">5</set>
-	
 	<!-- Increase the min amount of skyscrapers in industrialGroup from 1 to 3 and max from 2 to 8 -->
-	<set xpath="/rwgmixer/prefab_rules/prefab_rule[@name='industrialGroup']/prefab[contains(@rule,'skyscrapers')]/@min_count">3</set>
-	<set xpath="/rwgmixer/prefab_rules/prefab_rule[@name='industrialGroup']/prefab[contains(@rule,'skyscrapers')]/@max_count">8</set>
+	<set xpath="/rwgmixer/prefab_rules/prefab_rule[@name='industrialGroup']/prefab[contains(@rule,'skyscrapers')]/@min_count">5</set>
+	<set xpath="/rwgmixer/prefab_rules/prefab_rule[@name='industrialGroup']/prefab[contains(@rule,'skyscrapers')]/@max_count">10</set>
 	
 	<!-- Ajusting the prob of the skyscrapers to favorit the Dishong Tower and Higashi -->
 	<set xpath="/rwgmixer/prefab_rules/prefab_rule[@name='skyscrapers']/prefab[contains(@name,'skyscraper_01')]/@prob">0.5</set> <!-- Dishong Tower -->
@@ -26,18 +23,47 @@
 	<set xpath="/rwgmixer/prefab_rules/prefab_rule[@name='skyscrapers']/prefab[contains(@name,'skyscraper_03')]/@prob">0.45</set> <!-- Higashi Pharmaceutical -->
 	<setattribute xpath="/rwgmixer/prefab_rules/prefab_rule[@name='skyscrapers']/prefab[contains(@name,'skyscraper_04')]" name="prob">0.025</setattribute> <!-- Joe Bros Builder -->
 	
-	<!-- Increase the min amount of skyscrapers in industrialGroup from 2 to 4 and adding max 8 -->
-	<set xpath="/rwgmixer/prefab_rules/prefab_rule[@name='downtownGroup']/prefab[contains(@rule,'skyscrapers')]/@min_count">3</set>
-	<setattribute xpath="/rwgmixer/prefab_rules/prefab_rule[@name='downtownGroup']/prefab[contains(@rule,'skyscrapers')]" name="max_count">8</setattribute>
+	<!-- Increase the min amount of skyscrapers in downtownGroup from 2 to 4 and adding max 8 -->
+	<set xpath="/rwgmixer/prefab_rules/prefab_rule[@name='downtownGroup']/prefab[contains(@rule,'skyscrapers')]/@min_count">10</set>
+	<setattribute xpath="/rwgmixer/prefab_rules/prefab_rule[@name='downtownGroup']/prefab[contains(@rule,'skyscrapers')]" name="max_count">20</setattribute>
 	
 	<!-- Change various Min and Max options in downtownGroup rule -->
 	<set xpath="/rwgmixer/prefab_rules/prefab_rule[@name='downtownGroup']/prefab[contains(@name,'fire_station_02')]/@max_count">3</set>
 	<set xpath="/rwgmixer/prefab_rules/prefab_rule[@name='downtownGroup']/prefab[contains(@name,'fire_station_01')]/@max_count">3</set>
 	
+	<!-- Addinr skyscrapers rules to commercialGroup -->
+	<insertBefore xpath="/rwgmixer/prefab_rules/prefab_rule[@name='commercialGroup']/prefab[@rule='diner_FastfoodGroup']">
+		<prefab rule="skyscrapers" min_count="3" max_count="6"/>
+	</insertBefore>
 	
 	<!-- Puts the hospital in to the downtownGroup to increase the prob of  it spawning in the world -->
 	<insertBefore xpath="/rwgmixer/prefab_rules/prefab_rule[@name='downtownGroup']/prefab[@name='business_old_01']">
 		<prefab name="hospital_01" min_count="1" max_count="3"/>
 	</insertBefore>
+	
+	<!-- Testing -->
+	<set xpath="/rwgmixer/biome_generators/biome_generator[@name='vanillaSmall']/module[@name='voronoi']/property[@name='frequency']/@value">0.0006</set>
+	<!-- <set xpath="/rwgmixer/biome_generators/biome_generator[@name='vanillaSmall']/module[@name='voronoi']/property[@name='displacement']/@value">0.5</set> -->
+	
+	<remove xpath="/rwgmixer/biome_generators/biome_generator[@name='vanillaSmall']/module[@name='biomeOutput']"/>
+	<remove xpath="/rwgmixer/biome_generators/biome_generator[@name='vanillaSmall']/output[@module='biomeOutput']"/>
+	
+	<append xpath="/rwgmixer/biome_generators/biome_generator[@name='vanillaSmall']">
+		<module name="biomeOutput" type="BiomeIDMapper">
+			<property name="sourceModule" value="clampOutput"/>
+			<property name="biomemap0.Name" value="pine_forest"/>
+			<property name="biomemap0.Range" value="0.0,0.5"/>
+			<property name="biomemap1.Name" value="snow"/>
+			<property name="biomemap1.Range" value="0.5,0.7"/>
+			<property name="biomemap2.Name" value="wasteland"/>
+			<property name="biomemap2.Range" value="0.7,0.8"/>
+			<property name="biomemap3.Name" value="burnt_forest"/>
+			<property name="biomemap3.Range" value="0.8,0.9"/>
+			<property name="biomemap4.Name" value="desert"/>
+			<property name="biomemap4.Range" value="0.9,1.1"/>
+		</module>
+		
+		<output module="biomeOutput"/>
+	</append>
 	
 </configs>
