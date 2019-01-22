@@ -9,6 +9,9 @@
 	
 	<!-- Change Min / Max / Prob -->
 	
+	<!-- Set a min on downtowngroup -->
+	<setattribute xpath="/rwgmixer/prefab_rules/prefab_rule[@name='townGroup']" name="min_count">3</setattribute>
+	
 	<!-- Increase the min amount of traders in wildernessGroup from 1 to 3 and max from 1 to 4 -->
 	<set xpath="/rwgmixer/prefab_rules/prefab_rule[@name='wildernessGroup']/prefab[contains(@name,'trader')]/@min_count">2</set>
 	<set xpath="/rwgmixer/prefab_rules/prefab_rule[@name='wildernessGroup']/prefab[contains(@name,'trader')]/@max_count">6</set>
@@ -45,7 +48,7 @@
 	<set xpath="/rwgmixer/biome_generators/biome_generator[@name='vanillaSmall']/module[@name='voronoi']/property[@name='frequency']/@value">0.0006</set>
 	<!-- <set xpath="/rwgmixer/biome_generators/biome_generator[@name='vanillaSmall']/module[@name='voronoi']/property[@name='displacement']/@value">0.5</set> -->
 	
-	<remove xpath="/rwgmixer/biome_generators/biome_generator[@name='vanillaSmall']/module[@name='biomeOutput']"/>
+<!-- 	<remove xpath="/rwgmixer/biome_generators/biome_generator[@name='vanillaSmall']/module[@name='biomeOutput']"/>
 	<remove xpath="/rwgmixer/biome_generators/biome_generator[@name='vanillaSmall']/output[@module='biomeOutput']"/>
 	
 	<append xpath="/rwgmixer/biome_generators/biome_generator[@name='vanillaSmall']">
@@ -64,6 +67,6 @@
 		</module>
 		
 		<output module="biomeOutput"/>
-	</append>
+	</append> -->
 	
 </configs>
