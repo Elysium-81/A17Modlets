@@ -1,0 +1,7 @@
+<configs>
+	<append xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group">
+		
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1" tags="ammoGasCan,drinkJarGrainAlcohol,resourceBulletCasing,resourceBulletTip,resourceBulletCasingSteel,ammo9mmBullet,ammo44MagnumBullet,ammoShotgunShell,ammo762mmBulletFMJ,chemistryStation,thrownAmmoPipeBomb,tnt,mineHubcap,mineCookingPot,toolBeaker"/>
+
+	</append>
+</configs>
