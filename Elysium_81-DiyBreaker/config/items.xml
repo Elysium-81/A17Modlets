@@ -1,0 +1,20 @@
+<configs>
+	
+	<append xpath="/items">
+	
+		<item name="TheDIYBeaker">
+			<!--<property name="DescriptionKey" value="Huntsman_Rank_1_Desc"/> -->
+			<property name="Extends" value="unlockBookMaster"/>
+			<property name="CustomIcon" value="schematicMaster"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property class="Action0">
+				<requirement name="CVarCompare" cvar="Beaker" operation="Equals" value="0"/>
+			</property>
+				<effect_group tiered="false">
+						<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Beaker" operation="set" value="1"/>
+				</effect_group>
+		</item>
+		
+	</append>
+	
+</configs>
