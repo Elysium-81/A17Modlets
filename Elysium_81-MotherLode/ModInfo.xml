@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="MotherLode" />
+		<Description value="Increases MotherLode perk to increase harvest" />
+		<Author value="Elysium_81" />
+		<Version value="1.1" />
+	</ModInfo>
+</xml>
