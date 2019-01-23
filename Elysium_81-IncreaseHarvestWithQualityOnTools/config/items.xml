@@ -2,11 +2,7 @@
 	
 	<!-- Change damage based on quality -->
 	<append xpath="/items/item[contains(@name,'meleeTool')]/effect_group[@name='Base Effects']">
-		<passive_effect name="HarvestCount" operation="perc_add" value=".5" tier="2" tags="oreWoodHarvest"/>
-		<passive_effect name="HarvestCount" operation="perc_add" value="1" tier="3" tags="oreWoodHarvest"/>
-		<passive_effect name="HarvestCount" operation="perc_add" value="2" tier="4" tags="oreWoodHarvest"/>
-		<passive_effect name="HarvestCount" operation="perc_add" value="4" tier="5" tags="oreWoodHarvest"/>
-		<passive_effect name="HarvestCount" operation="perc_add" value="8" tier="6" tags="oreWoodHarvest"/>
+		<passive_effect name="HarvestCount" operation="perc_add" value="0,4" tier="2,6" tags="oreWoodHarvest"/>
 	</append>		
 	
 </configs>
