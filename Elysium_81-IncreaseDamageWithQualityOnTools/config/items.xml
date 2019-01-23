@@ -8,7 +8,7 @@
 	
 	<append xpath="/items/item[contains(@name, 'meleeTool') and not(contains(@name, 'Auger') or contains(@name, 'Chainsaw'))]/effect_group[@name='Base Effects']">
 		<passive_effect name="EntityDamage" operation="perc_add" value="0,.5" tier="1,6"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value="0,2" tier="1,6"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="0,2.98" tier="1,6"/>
 	</append>		
 	
 </configs>
