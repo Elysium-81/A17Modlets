@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-	<ModInfo>
-		<Name value="MoreResourceFromHarvest" />
-		<Description value="Increase the harvest count and probability of drop rate on rare resources." />
-		<Author value="Elysium_81" />
-		<Version value="1" />
-	</ModInfo>
-</xml>

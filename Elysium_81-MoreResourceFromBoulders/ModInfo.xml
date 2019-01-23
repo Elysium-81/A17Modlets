@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Elysium_81-MoreResourceFromBoulders" />
+		<Description value="Increase the harvest count and probability of drop rate on rare resources from boulders." />
+		<Author value="Elysium_81" />
+		<Version value="1.1" />
+	</ModInfo>
+</xml>
