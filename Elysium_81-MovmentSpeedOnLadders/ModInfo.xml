@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Elysium_81-MovmentSpeedOnLadders" />
+		<Description value="Faster movement on ladders" />
+		<Author value="Elysium_81" />
+		<Version value="1.0" />
+	</ModInfo>
+</xml>

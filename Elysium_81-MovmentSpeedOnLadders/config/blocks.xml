@@ -1,0 +1,9 @@
+<configs>
+
+	<append xpath="/blocks/block[contains(@name,'ladder')]">
+
+		<property name="MovementFactor" value="2.0"/>
+	
+	</append>
+	
+</configs>
