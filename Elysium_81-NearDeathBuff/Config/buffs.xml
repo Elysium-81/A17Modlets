@@ -1,5 +1,5 @@
 <configs>
 
-	<set xpath="/buffs/buff[@name='buffNearDeathTrauma']/duration/@value">300</set>
+	<set xpath="/buffs/buff[@name='buffNearDeathTrauma']/duration/@value">10</set>
 
 </configs>
