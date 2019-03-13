@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Elysium_81-IHateSteveCrawler" />
+		<Description value="Removes the Zombie SteveCrawler from the ZombiesNight. Very usefull if ZombiesNight is added to the Bloodmoon as wave 4" />
+		<Author value="Elysium_81" />
+		<Version value="1.0" />
+	</ModInfo>
+</xml>
