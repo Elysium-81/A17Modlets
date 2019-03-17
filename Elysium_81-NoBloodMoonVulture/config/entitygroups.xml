@@ -1,0 +1,24 @@
+<configs>
+	
+	<remove xpath="/entitygroups/entitygroup[contains(@name, 'feralHordeStageGS')]/entity[@name='animalZombieVultureRadiated']"/>
+	<remove xpath="/entitygroups/entitygroup[contains(@name, 'feralHordeStageGS')]/entity[@name='animalZombieVulture']"/>
+	
+	<append xpath="/entitygroups">
+		<entitygroup name="ZombiesBMNight">
+			<entity name="zombieSpider"/>
+			<entity name="zombieBoe"/>
+			<entity name="zombieJoe"/>
+			<entity name="zombieSteve"/>
+			<entity name="zombieMoe"/>
+			<entity name="zombieYo"/>
+			<entity name="zombieBusinessMan"/>
+			<entity name="zombieArlene"/>
+			<entity name="zombieDarlene"/>
+			<entity name="zombieMarlene"/>
+			<entity name="zombieNurse"/>
+			<entity name="animalZombieDog" prob="0.05"/>
+			<entity name="zombieFatHawaiian" prob="0.3"/>
+		</entitygroup>
+	</append>
+	
+</configs>
